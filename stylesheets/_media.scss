@@ -20,7 +20,7 @@ $media-small-portrait: "only screen and (max-width: #{map-get($Breakpoint,small-
 $media-phone-portrait:$media-small-portrait;
 
 ///medium
-$media-medium: "only screen and (max-width: #{map-get($Breakpoint,medium)}) and (min-width: #{map-get($Breakpoint,small)})" !default;
+$media-medium: "only screen and (max-width: #{map-get($Breakpoint,medium-portrait)}) and (min-width: #{map-get($Breakpoint,small)})" !default;
 
 ///medium-landscape
 $media-medium-landscape: "only screen and (max-width: #{map-get($Breakpoint,medium)}) and (min-width: #{map-get($Breakpoint,small)}) and (orientation:landscape)" !default;
